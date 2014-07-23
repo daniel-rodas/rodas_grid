@@ -1,0 +1,135 @@
+/* Author: Daniel Rodas */
+/* Title: Rodas Grid (Fibbonacci) */
+/**/
+
+[class*='col_'] {
+   float: left;
+   /*border: 1em solid transparent;*/
+   margin: 1em;
+}
+
+.col_a {width: 100%; }
+/*  61.4% down down to 61%  */
+.col_b {width: 61%; }
+/*  38.19 round down to 38  */
+.col_c {width: 38%; }
+.col_d {width: 24.0402%; } 
+.col_e {width: 14.4568436%; } 
+.col_f {width: 9.1815293448%; }
+.col_g {width: 5.4741851350864%; }
+.col_h {width: 3.4506646413483395%; }
+
+/*  85.4402% round down to 85% */
+.col_bd {width: 85%; } 
+/*75.8568436% round down to 75.5*/
+.col_be {width: 75.5%; } 
+.col_bf {width: 70.5815293448%; }
+.col_bg {width: 66.8741851350864%; }
+.col_bh {width: 64.85066464134834%; }
+
+
+.col_a-b {width: 38.6%;}
+.col_a-c {width: 61.18%; }
+.col_a-d {width: 75.9598%; } 
+.col_a-e {width: 85.5431564%; } 
+.col_a-f {width: 90.8184706552%; }
+.col_a-g {width: 94.5258148649136%; }
+.col_a-h {width: 96.54933535865166%; }
+
+.offset_a {margin-left: 100%; }
+.offset_b {margin-left: 61.4%; }
+.offset_c {margin-left: 38.19%; }
+.offset_d {margin-left: 24.0402%; } 
+.offset_e {margin-left: 14.4568436%; } 
+.offset_f {margin-left: 9.1815293448%; }
+.offset_g {margin-left: 5.4741851350864%; }
+.offset_h {margin-left: 3.406646413483395%; }
+
+.hide {display: none;}
+.new_row {
+    clear:both;
+}
+
+.pull_right {
+    float: right;
+}
+
+.pull_left {
+    float: left;
+}
+.clear_fix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+html, body {height: 100%;}
+.full_screen_site {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow:hidden;
+}
+/*.scroll {
+  overflow:scroll;
+}*/
+.scroll:hover,.scroll:focus,.scroll:active {
+  overflow:auto;
+}
+.sidebar {
+height: 100%;
+top: 0;
+-webkit-transition: background-color 300ms ease-out 300ms;
+-moz-transition: background-color 300ms ease-out 300ms;
+-o-transition: background-color 300ms ease-out 300ms;
+transition: background-color 300ms ease-out 300ms;
+background-color: rgba(40,40,40,0.1);
+}
+.fixed.sidebar {position: fixed;}
+.right.sidebar {right: 0;padding-left: 2%;}
+.left.sidebar {left: 0;padding-right: 2%;}
+.height_10 {
+    height:10% ;
+}
+.height_20 {
+    height:20% ;
+}
+.height_30 {
+    height:30% ;
+}
+.height_40 {
+    height:40% ;
+}
+.height_50 {
+    height:50% ;
+}
+.height_60 {
+    height:60% ;
+}
+.height_70 {
+    height:70% ;
+}
+.height_80 {
+    height:80% ;
+}
+.height_90 {
+    height:90% ;
+}
+.height_100 {
+    height: 100%;
+}
+.min_h_100{
+    min-height: 100%;
+}
+.height_100 {
+    height: 100%;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/*.mobile_nav_icon {
+  display: none;
+}*/
